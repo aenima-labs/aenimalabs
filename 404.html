@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Not found — Ænima Labs</title>
+	<meta name="robots" content="noindex">
+	<meta name="theme-color" content="#11111F">
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260826">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=20260826">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Playfair+Display:ital@1&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/styles.css?v=20261104">
+	<style>
+		.lost { position: relative; min-height: 100svh; display: grid; place-content: center; justify-items: center; gap: 22px; padding: 48px 24px; text-align: center; background: var(--navy-deep); color: var(--white); overflow: hidden; isolation: isolate; }
+		.lost-orbit { position: absolute; inset: 50% auto auto 50%; translate: -50% -50%; width: 560px; aspect-ratio: 1; z-index: -1; }
+		.lost-orbit .ring { position: absolute; }
+		.lost-orbit .ring::before { content: ""; position: absolute; top: -5px; left: 50%; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: var(--sage-light); box-shadow: 0 0 14px var(--sage-light); }
+		.lost-orbit .ring-2::before { background: var(--copper); box-shadow: 0 0 14px var(--copper); }
+		.lost h1 { font-size: clamp(40px, 7vw, 72px); font-weight: 600; letter-spacing: -.04em; line-height: 1; }
+		.lost p { margin: 0; max-width: 420px; font-family: var(--serif); font-style: italic; font-size: 21px; color: var(--on-dark); }
+		.lost .brand-mark { width: 56px; height: 56px; }
+		.lost .brand-mark svg { width: 26px; height: 26px; }
+	</style>
+</head>
+<body>
+	<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+		<symbol id="ae" viewBox="-80 -80 160 160">
+			<polygon points="-72,80 -12,-80 -2,-80 -42,80"/>
+			<polygon points="8,-80 18,-80 18,80 8,80"/>
+			<rect x="-38" y="2" width="56" height="10"/>
+			<rect x="8" y="-80" width="60" height="10"/>
+			<rect x="8" y="2" width="50" height="10"/>
+			<rect x="8" y="70" width="60" height="10"/>
+		</symbol>
+	</svg>
+	<main class="lost">
+		<div class="lost-orbit" aria-hidden="true"><div class="ring ring-1"></div><div class="ring ring-2"></div></div>
+		<span class="brand-mark" aria-hidden="true"><svg><use href="#ae"/></svg></span>
+		<h1>Off the map.</h1>
+		<p>This page hasn't been explored yet. The lab is still here, though.</p>
+		<a class="btn btn-primary" href="/">Back to aenimalabs.com</a>
+	</main>
+</body>
+</html>
