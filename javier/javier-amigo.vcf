@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Amigo Miranda;Javier;A.;;
+FN:Javier A. Amigo Miranda
+ORG:Ænima Labs
+TITLE:Co-founder · CEO / COO
+EMAIL;TYPE=INTERNET,WORK,pref:javier@aenimalabs.com
+item1.URL;type=pref:https://aenimalabs.com
+item1.X-ABLabel:Website
+item2.URL:https://aenimalabs.com/javier
+item2.X-ABLabel:Profile
+item3.URL:https://www.linkedin.com/in/javieramigo
+item3.X-ABLabel:LinkedIn
+X-SOCIALPROFILE;type=linkedin:https://www.linkedin.com/in/javieramigo
+ADR;TYPE=WORK:;;;Copenhagen;;;Denmark
+NOTE:Ænima Labs — R&D laboratory exploring technology for the future. Fi
+ rst mission: Kodama.
+END:VCARD
