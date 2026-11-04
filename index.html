@@ -27,7 +27,24 @@
 	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
 	<!-- Cinzel only sets the word Kodama -->
 	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&text=KODAMkodam&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="styles.css?v=20261104">
+	<link rel="stylesheet" href="styles.css?v=20261105">
+	<!-- Consent Mode: analytics stays off until the visitor says yes (see consent.js).
+     A returning visitor's yes is restored here, so the Google tag fires on Initialization. -->
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied' });
+		try {
+			var c = JSON.parse(localStorage.getItem('consent') || 'null');
+			if (c && c.analytics === 'granted' && Date.now() - c.at < 365 * 864e5) {
+				gtag('consent', 'update', { analytics_storage: 'granted' });
+			}
+		} catch (e) {}
+	</script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M5B4M4R4');</script>
+	<!-- End Google Tag Manager -->
+
 	<script type="application/ld+json">
 	{"@context":"https://schema.org","@type":"Organization","name":"Ænima Labs","alternateName":"Aenima Labs","url":"https://aenimalabs.com/","logo":"https://aenimalabs.com/favicon-512.png","email":"hello@aenima.io","slogan":"Made for humans by humans.","founder":[{"@type":"Person","name":"Javier A. Amigo Miranda"},{"@type":"Person","name":"Anton Chernov","url":"https://chernov.io/"}],"subOrganization":{"@type":"Organization","name":"Kodama","url":"https://kodama.house/"}}
 	</script>
@@ -350,11 +367,14 @@
 			<a href="https://kodama.house">Kodama</a>
 			<a href="https://chernov.io">Chernov Consulting</a>
 			<a href="mailto:hello@aenima.io">hello@aenima.io</a>
+			<a href="/privacy.html">Privacy</a>
+			<a href="#" data-cookie-settings>Cookie settings</a>
 		</nav>
 		<p class="footer-meta">&copy; <span id="year">2026</span> Ænima Labs · Copenhagen · Lisbon</p>
 	</div>
 </footer>
 
 <script src="main.js?v=20261104" defer></script>
+<script src="consent.js?v=20261105" defer></script>
 </body>
 </html>
