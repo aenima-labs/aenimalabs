@@ -1,6 +1,6 @@
 # aenimalabs
 
-Public site for **aenima labs**. Served via GitHub Pages at [aenimalabs.com](https://aenimalabs.com); [aenima.io](https://aenima.io) 301-redirects to this canonical domain.
+Public site for **aenima labs**. Served via GitHub Pages at [aenimalabs.com](https://aenimalabs.com). `www.aenimalabs.com` is an HTTP 301 to that apex. [aenima.io](https://aenima.io) is a client-side redirect to this canonical domain.
 
 ## What's here
 
@@ -15,7 +15,7 @@ Public site for **aenima labs**. Served via GitHub Pages at [aenimalabs.com](htt
 
 ## What was here before
 
-The pre-rebrand Rust prototype lives on branch [`archive/anima-scaffold`](https://github.com/chernov-consulting/aenimalabs/tree/archive/anima-scaffold). It was never shipped; kept as a record.
+The pre-rebrand Rust prototype lives on branch [`archive/anima-scaffold`](https://github.com/aenima-labs/aenima-redirect/tree/archive/anima-scaffold). It was never shipped; kept as a record.
 
 ## Deploying
 
